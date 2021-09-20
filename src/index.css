@@ -1,0 +1,487 @@
+* {
+  margin: 0px;
+  border: 0px;
+}
+
+.button {
+    background-color: #73AB84;
+    color: white;
+    width: 10%;
+    height: 25%;
+}
+
+.button:hover {
+    background-color: #577a62; 
+}
+
+.button:active {
+    background-color: #acddbb;
+    color: #34473a;
+}
+
+.aaa{
+    background-color: none;
+    flex-basis: 33.33%;
+    height: 40vh;
+    width: 25vw;
+    margin-left: 50px;
+    margin-top: 35px;
+    margin-right: 50px;
+    background-size: 340px, 340px;
+}
+
+
+.J{
+    width: 98.7vw;
+    background-size: 100%;
+    margin-bottom: none;
+}
+.text{
+    text-align: center;
+}
+
+
+.text2{
+    text-align: center;
+    position:relative; top: 15px;
+    padding: 0%;
+    background-color: #73AB84;
+}
+
+.text3{
+    text-align: center;
+    color: #2c4434;
+}
+.submission {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+/* Customize the label (the container) */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+
+  /* Create a custom checkbox */
+  .checkmark {
+    flex-basis: 33.33%;
+    height: 40vh;
+    width: 25vw;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-right: 50px;
+    background-color: #f8f8f8;
+    background-size: 340px, 340px;
+    content: url(components/Bulbasaur.png);
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+    content:url(components/BulbasaurInfo.png)
+  }
+
+  /* Customize the label (the container) */
+.container2 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container2 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container2:hover input ~ .checkmark2 {
+    background-color: #ccc;
+  }
+
+  /* Create a custom checkbox */
+  .checkmark2 {
+    flex-basis: 33.33%;
+    height: 40vh;
+    width: 25vw;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-right: 50px;
+    background-color: #f8f8f8;
+    background-size: 340px, 340px;
+    content: url(components/Growlithe.png);
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container2 input:checked ~ .checkmark2 {
+    background-color: #2196F3;
+    content:url(components/GrowlitheInfo.png)
+  }
+
+    /* Customize the label (the container) */
+.container3 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container3 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container3:hover input ~ .checkmark3 {
+    background-color: #ccc;
+  }
+
+  /* Create a custom checkbox */
+  .checkmark3 {
+    flex-basis: 33.33%;
+    height: 40vh;
+    width: 25vw;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-right: 50px;
+    background-color: #f8f8f8;
+    background-size: 340px, 340px;
+    content: url(components/Espeon.png);
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container3 input:checked ~ .checkmark3 {
+    background-color: #2196F3;
+    content:url(components/EspeonInfo.png)
+  }
+
+    /* Customize the label (the container) */
+.container4 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container4 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container4:hover input ~ .checkmark4 {
+    background-color: #ccc;
+  }
+
+  /* Create a custom checkbox */
+  .checkmark4 {
+    flex-basis: 33.33%;
+    height: 40vh;
+    width: 25vw;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-right: 50px;
+    background-color: #f8f8f8;
+    background-size: 340px, 340px;
+    content: url(components/Pikachu.png);
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container4 input:checked ~ .checkmark4 {
+    background-color: #2196F3;
+    content:url(components/PikachuInfo.png)
+  }
+
+    /* Customize the label (the container) */
+.container5 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container5 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container5:hover input ~ .checkmark5 {
+    background-color: #ccc;
+  }
+
+  /* Create a custom checkbox */
+  .checkmark5 {
+    flex-basis: 33.33%;
+    height: 40vh;
+    width: 25vw;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-right: 50px;
+    background-color: #f8f8f8;
+    background-size: 340px, 340px;
+    content: url(components/Magikarp.png);
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container5 input:checked ~ .checkmark5 {
+    background-color: #2196F3;
+    content:url(components/MagikarpInfo.png)
+  }
+
+    /* Customize the label (the container) */
+.container6 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container6 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container6:hover input ~ .checkmark6 {
+    background-color: #ccc;
+  }
+
+  /* Create a custom checkbox */
+  .checkmark6 {
+    flex-basis: 33.33%;
+    height: 40vh;
+    width: 25vw;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-right: 50px;
+    background-color: #f8f8f8;
+    background-size: 340px, 340px;
+    content: url(components/Blastoise.png);
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container6 input:checked ~ .checkmark6 {
+    background-color: #2196F3;
+    content:url(components/BlastoiseInfo.png)
+  }
+
+      /* Customize the label (the container) */
+.container7 {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container7 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* On mouse-over, add a grey background color */
+.container7:hover input ~ .checkmark7 {
+  background-color: #ccc;
+}
+
+/* Create a custom checkbox */
+.checkmark7 {
+  flex-basis: 33.33%;
+  height: 40vh;
+  width: 25vw;
+  margin-left: 20px;
+  margin-top: 50px;
+  margin-right: 50px;
+  background-color: #f8f8f8;
+  background-size: 340px, 340px;
+  content: url(components/Diglett.png);
+}
+
+/* When the checkbox is checked, add a blue background */
+.container7 input:checked ~ .checkmark7 {
+  background-color: #2196F3;
+  content:url(components/DiglettInfo.png)
+}
+
+    /* Customize the label (the container) */
+    .container8 {
+      display: block;
+      position: relative;
+      padding-left: 35px;
+      margin-bottom: 12px;
+      cursor: pointer;
+      font-size: 22px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+    
+    /* Hide the browser's default checkbox */
+    .container8 input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+    }
+    
+    /* On mouse-over, add a grey background color */
+    .container8:hover input ~ .checkmark8 {
+      background-color: #ccc;
+    }
+  
+    /* Create a custom checkbox */
+    .checkmark8 {
+      flex-basis: 33.33%;
+      height: 40vh;
+      width: 25vw;
+      margin-left: 20px;
+      margin-top: 50px;
+      margin-right: 50px;
+      background-color: #f8f8f8;
+      background-size: 340px, 340px;
+      content: url(components/Jigglypuff.png);
+    }
+    
+    /* When the checkbox is checked, add a blue background */
+    .container8 input:checked ~ .checkmark8 {
+      background-color: #2196F3;
+      content:url(components/JigglypuffInfo.png)
+    }
+
+        /* Customize the label (the container) */
+.container9 {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container9 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* On mouse-over, add a grey background color */
+.container6:hover input ~ .checkmark9 {
+  background-color: #ccc;
+}
+
+/* Create a custom checkbox */
+.checkmark9 {
+  flex-basis: 33.33%;
+  height: 40vh;
+  width: 25vw;
+  margin-left: 20px;
+  margin-top: 50px;
+  margin-right: 50px;
+  background-color: #f8f8f8;
+  background-size: 340px, 340px;
+  content: url(components/Charizard.png);
+}
+
+/* When the checkbox is checked, add a blue background */
+.container9 input:checked ~ .checkmark9 {
+  background-color: #2196F3;
+  content:url(components/CharizardInfo.png)
+}
